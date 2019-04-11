@@ -1,5 +1,7 @@
+import buttonEvents from './helpers/button-events.js';
+
 const init = () => {
-  console.log("hi");
+  buttonEvents.attachEvents();
 };
 
 init();
